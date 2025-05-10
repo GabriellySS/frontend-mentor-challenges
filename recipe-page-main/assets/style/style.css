@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+}
+
+h1 {
+  color: var(--stone-900);
+  font-size: 2.2rem;
+  padding: 2rem 2rem 1.2rem 2rem;
+  line-height: 1em;
+}
+
+h2 {
+  color: var(--brown-800);
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  color: var(--stone-600);
+  line-height: 1.5em;
+}
+
+ul,
+ol {
+  padding: 0.5rem 1.2rem 0 1.2rem;
+}
+
+li {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5em;
+  color: var(--stone-600);
+  padding: 0.3rem 0.1rem 0.3rem 0.8rem;
+}
+
+li span {
+  font-weight: 700;
+}
+
+hr {
+  border: none;
+  height: 0.1rem;
+  background-color: var(--stone-150);
+  margin: 2rem;
+}
+
+.container {
+  background-color: var(--white);
+}
+
+.header-img {
+  height: 10.75rem;
+}
+
+.header-container p {
+  margin: 0 2rem;
+}
+
+.preparation-time {
+  background-color: var(--rose-50);
+  border-radius: 0.8rem;
+  margin: 1.5rem 2rem 1.5rem 2rem;
+  padding: 1.5rem 1.5rem 1.2rem 1.5rem;
+}
+
+.preparation-time h3 {
+  font-family: "Outfit", sans-serif;
+  color: var(--rose-800);
+}
+
+.preparation-time li::marker {
+  color: var(--rose-800);
+  vertical-align: middle;
+}
+
+.ingredients,
+.instructions,
+.nutrition {
+  margin: 2rem;
+}
+
+.ingredients li::marker {
+  color: var(--brown-800);
+  vertical-align: middle;
+}
+
+.instructions li::marker {
+  font-weight: 700;
+  color: var(--brown-800);
+  vertical-align: middle;
+}
+
+table {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+
+th,
+td {
+  padding: 0.8rem 2rem;
+}
+
+th {
+  color: var(--stone-600);
+  font-weight: 400;
+  text-align: left;
+}
+
+td {
+  color: var(--brown-800);
+  font-weight: 700;
+}
+
+.second-row,
+.third-row,
+.fourth-row {
+  border-top: 0.1rem solid var(--stone-150);
+}
