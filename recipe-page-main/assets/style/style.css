@@ -23,7 +23,6 @@ h2 {
 h1 {
   color: var(--stone-900);
   font-size: 2.2rem;
-  padding: 2rem 2rem 1.2rem 2rem;
   line-height: 1em;
 }
 
@@ -40,7 +39,7 @@ p {
 
 ul,
 ol {
-  padding: 0.5rem 1.2rem 0 1.2rem;
+  padding: 0rem 1.2rem 0 1.2rem;
 }
 
 li {
@@ -59,25 +58,36 @@ hr {
   border: none;
   height: 0.1rem;
   background-color: var(--stone-150);
-  margin: 2rem;
-}
-
-.container {
-  background-color: var(--white);
 }
 
 .header-img {
-  height: 10.75rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.header-container h1 {
+  margin: 2.7rem 2rem 1.5rem 2rem;
 }
 
 .header-container p {
   margin: 0 2rem;
 }
 
+.container {
+  background-color: var(--white);
+  padding: 2rem;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.container>section h2 {
+  margin-bottom: 1rem;
+}
+
 .preparation-time {
   background-color: var(--rose-50);
   border-radius: 0.8rem;
-  margin: 1.5rem 2rem 1.5rem 2rem;
   padding: 1.5rem 1.5rem 1.2rem 1.5rem;
 }
 
@@ -86,15 +96,13 @@ hr {
   color: var(--rose-800);
 }
 
+.preparation-time li {
+  margin-top: .5rem;
+}
+
 .preparation-time li::marker {
   color: var(--rose-800);
   vertical-align: middle;
-}
-
-.ingredients,
-.instructions,
-.nutrition {
-  margin: 2rem;
 }
 
 .ingredients li::marker {
@@ -136,4 +144,66 @@ td {
 .third-row,
 .fourth-row {
   border-top: 0.1rem solid var(--stone-150);
+}
+
+footer {
+  font-family: "Outfit", sans-serif;
+  font-size: .9rem;
+  color: var(--stone-600);
+  line-height: 1.5em;
+  padding: 0 2rem 1.2rem 2rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--stone-900);
+  font-weight: 600;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-color: #F3E5D8;
+  }
+
+  main {
+    height: max-content;
+    border-radius: 1.7rem;
+    width: 736px;
+    margin: 7.6rem auto;
+    padding: 2.5rem;
+    background-color: var(--white);
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .header-container h1 {
+    margin: 2.7rem 0 1.5rem 0;
+  }
+
+  .header-container p {
+    margin: 0 0 2rem;
+  }
+
+  .header-img {
+    border-radius: 0.8rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .preparation-time h3 {
+    font-size: 1.25rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: -2rem;
+  }
 }
