@@ -22,12 +22,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img width="1913" height="907" alt="image" src="https://github.com/user-attachments/assets/fbaa0ded-409f-4405-8ac1-6540b1bfdd9c" />
 
 ### Links
 
-- Solution URL: [Add solution URL here]
-- Live Site URL: [Add live site URL here]
+- [Solution URL](https://github.com/GabriellySS/frontend-mentor-challenges/tree/main/blog-preview-card)
+- [Live Site URL](https://frontend-mentor-challenges-eta-wheat.vercel.app/blog-preview-card/)
 
 ## My process
 
