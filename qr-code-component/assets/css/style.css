@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* colors */
+    --color-white: hsl(0, 0%, 100%);
+    --color-slate-300: hsl(212, 45%, 89%);
+    --color-slate-500: hsl(216, 15%, 48%);
+    --color-slate-900: hsl(218, 44%, 22%);
+
+    /* spacing */
+    --spacing-200: 1rem;
+    --spacing-300: 1.5rem;
+    --spacing-500: 2.5rem;
+}
+
+body {
+    background-color: var(--color-slate-300);
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    padding: var(--spacing-200) var(--spacing-200) var(--spacing-500) var(--spacing-200);
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-300);
+
+    background: var(--color-white);
+    border-radius: 1.25rem;
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
+}
+
+.container img {
+    width: 18rem;
+    height: auto;
+
+    border-radius: 0.625rem;
+}
+
+.container .texts h1 {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 120%;
+
+    color: var(--color-slate-900);
+}
+
+.container .texts p {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.0125rem;
+    margin-top: var(--spacing-200);
+
+    color: var(--color-slate-500);
+}
+
+footer {
+    margin-top: var(--spacing-200);
+    justify-self: end;
+    font-size: .8rem;
+    color: var(--color-slate-500);
+    line-height: 1.5em;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--color-slate-900);
+}
