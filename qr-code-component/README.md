@@ -18,13 +18,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 Build out the QR code component and get it looking as close to the design as possible.
 
 ### Screenshot
-
-![](./screenshot.jpg)
+<img width="1910" height="897" alt="image" src="https://github.com/user-attachments/assets/1da8fc82-9204-4a8c-9ba9-8d08d493a226" />
 
 ### Links
 
-- Solution URL: [Add solution URL here]
-- Live Site URL: [Add live site URL here]
+- [Solution URL](https://github.com/GabriellySS/frontend-mentor-challenges/tree/main/qr-code-component)
+- [Live Site URL](https://frontend-mentor-challenges-eta-wheat.vercel.app/qr-code-component/)
 
 ## My process
 
