@@ -102,3 +102,17 @@ main {
     background-color: var(--color-green);
     color: var(--color-grey-800);
 }
+
+footer {
+    text-align: center;
+    color: var(--color-white);
+    font-size: 0.7rem;
+    font-weight: var(--weight-regular);
+    margin-top: -2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--color-green);
+    font-weight: var(--weight-semibold);
+}
