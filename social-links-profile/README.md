@@ -22,12 +22,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img width="1911" height="902" alt="image" src="https://github.com/user-attachments/assets/e5751f48-d0ce-4f6e-ada7-f29d14655d67" />
+
 
 ### Links
 
-- Solution URL: [Add solution URL here]
-- Live Site URL: [Add live site URL here]
+- [Solution URL](https://github.com/GabriellySS/frontend-mentor-challenges/tree/main/social-links-profile)
+- [Live Site URL](https://frontend-mentor-challenges-eta-wheat.vercel.app/social-links-profile/)
 
 ## My process
 
