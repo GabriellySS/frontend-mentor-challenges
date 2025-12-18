@@ -116,3 +116,10 @@ footer a {
     color: var(--color-green);
     font-weight: var(--weight-semibold);
 }
+
+@media screen and (min-width: 768px) {
+    .content {
+        width: 24.125rem;
+        padding: 2.5rem;
+    }
+}
