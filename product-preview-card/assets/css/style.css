@@ -24,7 +24,7 @@
     --weight-medium: 500;
 
     /* font sizes */
-    --size-sm: 0.75rem;
+    --size-sm: 0.65rem;
     --size-md: 0.875rem;
     --size-lg: 2rem;
 }
@@ -40,6 +40,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100dvw;
 }
 
 .product-card {
@@ -126,4 +127,40 @@ footer {
 footer a {
     text-decoration: none;
     color: var(--color-neutral-black);
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1rem;
+    }
+
+    .product-card {
+        flex-direction: row;
+        width: 50rem;
+        height: 37.5rem;
+        border-radius: 1rem;
+    }
+
+    .product-image {
+        width: 50%;
+        height: 37.5rem;
+    }
+
+    .product-info {
+        width: 50%;
+        padding: 2.813rem;
+    }
+
+    .product-name,
+    .current-price {
+        font-size: 2.625rem;
+    }
+
+    .product-description {
+        line-height: 170%;
+    }
+
+    .old-price {
+        font-size: 1.125rem;
+    }
 }
