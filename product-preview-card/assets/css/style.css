@@ -117,6 +117,15 @@ button {
     background-color: var(--color-primary-green-500);
 }
 
+button:hover {
+    background-color: var(--color-primary-green-700);
+}
+
+button:focus-visible {
+    outline: 2px solid var(--color-neutral-black);
+    outline-offset: 2px;
+}
+
 footer {
     margin: 4rem 0 1rem;
     font-size: var(--size-sm);
