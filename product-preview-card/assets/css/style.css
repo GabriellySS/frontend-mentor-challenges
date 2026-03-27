@@ -34,13 +34,14 @@ body {
     font-size: var(--size-md);
     font-weight: var(--weight-medium);
     background-color: var(--color-neutral-cream);
-}
-
-main {
+    height: 100dvh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
+
+
 
 .product-card {
     display: flex;

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Recipe page",
+        "difficulty": "newbie",
+        "image": "./assets/src/images/recipe-page-main.png",
+        "tags": [
+            "html",
+            "css"
+        ],
+        "linkPreview": "../../recipe-page-main/",
+        "linkRepo": "https://github.com/GabriellySS/frontend-mentor-challenges/tree/main/recipe-page-main"
+    },
+    {
+        "id": 2,
+        "title": "QR Code Component",
+        "difficulty": "newbie",
+        "image": "./assets/src/images/qr-code-component.png",
+        "tags": [
+            "html",
+            "css"
+        ],
+        "linkPreview": "../../qr-code-component/",
+        "linkRepo": "https://github.com/GabriellySS/frontend-mentor-challenges/tree/main/qr-code-component"
+    },
+    {
+        "id": 3,
+        "title": "Blog Preview Card",
+        "difficulty": "newbie",
+        "image": "./assets/src/images/blog-preview-card.png",
+        "tags": [
+            "html",
+            "css"
+        ],
+        "linkPreview": "../../blog-preview-card/",
+        "linkRepo": "https://github.com/GabriellySS/frontend-mentor-challenges/tree/main/blog-preview-card"
+    },
+    {
+        "id": 4,
+        "title": "Social Links Profile",
+        "difficulty": "intermediate",
+        "image": "./assets/src/images/social-links-profile.png",
+        "tags": [
+            "html",
+            "css"
+        ],
+        "linkPreview": "../../social-links-profile/",
+        "linkRepo": "https://github.com/GabriellySS/frontend-mentor-challenges/tree/main/social-links-profile"
+    },
+    {
+        "id": 5,
+        "title": "Product Preview Card",
+        "difficulty": "newbie",
+        "image": "./assets/src/images/product-preview-card.png",
+        "tags": [
+            "html",
+            "css"
+        ],
+        "linkPreview": "../../product-preview-card/",
+        "linkRepo": "https://github.com/GabriellySS/frontend-mentor-challenges/tree/main/product-preview-card"
+    }
+]
